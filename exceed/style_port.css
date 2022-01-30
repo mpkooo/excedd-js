@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,500&display=swap');
+body 
+    {font-family: 'Source Serif 4', sans-serif;}
+
+.container
+{
+    width: 1000px;
+    background-color: rgb(247, 243, 193);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+
+header,main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.frame
+{
+    position: relative;
+    overflow: hidden;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+}
+
+.frame img
+{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.content-left,.content-right
+{
+    width: 350px;
+}
+
+.layout
+{
+    border: 1px solid cadetblue;
+    border-left: 1px solid cadetblue;
+    padding: 50px;
+    width: 350px;
+    padding-right: 100px;
+}
+
+.container
+{
+    position: relative;
+}
+
+.prop-rt
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-bottom-left-radius: 50px;
+}
+
+header
+{
+    padding-top: 40px;
+}
+
+.my-name
+{
+    letter-spacing: 10px;
+}
+
+.my-name:nth-child(2)
+{
+    margin-bottom: 20px;
+}
